@@ -1,0 +1,5 @@
+source('~/Documents/rtoolbox/scripts/fns/init.R')
+source('~/Documents/rtoolbox/scripts/fns/pkg.R')
+lapply(get_source_list(dir = '~/Documents/rtoolbox/scripts/src'), source)
+source('~/Documents/rtoolbox/scripts/fns/spotify-api.R')
+source('~/Documents/rtoolbox/scripts/fns/database.R')
